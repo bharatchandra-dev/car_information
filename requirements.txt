@@ -1,0 +1,10 @@
+requests==2.23.0
+Flask==1.0.3
+pyocr==0.7.2
+pymongo==3.9.0
+pandas==0.25.3
+opencv_python==4.1.2.30
+mechanize==0.4.5
+pytesseract==0.3.1
+beautifulsoup4==4.8.2
+Pillow==7.0.0
