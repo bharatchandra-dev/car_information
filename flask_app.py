@@ -49,7 +49,7 @@ def postJson():
     model = content['model'].lower()
     print (brand, model)
     try: 
-        conn = MongoClient('mongodb+srv://ps:M%40r!b0r0@dev-q2lp8.gcp.mongodb.net/test') 
+        conn = MongoClient('mongodb+srv://bharat13:M%40r!b0r0@cluster0-evtxi.mongodb.net/test') 
         print("Connected successfully!!!") 
     except:   
         print("Could not connect to MongoDB") 
@@ -136,7 +136,7 @@ def postJson():
 
 
         '''
-        conn1 = MongoClient('mongodb+srv://ps:M%40r!b0r0@dev-q2lp8.gcp.mongodb.net/test')
+        conn1 = MongoClient('mongodb+srv://bharat13:M%40r!b0r0@cluster0-evtxi.mongodb.net/test')
         db1 = conn1.dev1
         collection1 = db1.car_detail
 
@@ -182,7 +182,7 @@ def postJson():
 @app.route('/num/<registrationnum>')
 def api_article(registrationnum):
     try: 
-        conn = MongoClient('mongodb+srv://ps:M%40r!b0r0@dev-q2lp8.gcp.mongodb.net/test') 
+        conn = MongoClient('mongodb+srv://bharat13:M%40r!b0r0@cluster0-evtxi.mongodb.net/test') 
         print("Connected successfully!!!") 
     except:   
         print("Could not connect to MongoDB") 
@@ -228,7 +228,7 @@ def api_article(registrationnum):
             else:
                 break
 
-        conn1 = MongoClient('mongodb+srv://ps:M%40r!b0r0@dev-q2lp8.gcp.mongodb.net/test')
+        conn1 = MongoClient('mongodb+srv://bharat13:M%40r!b0r0@cluster0-evtxi.mongodb.net/test')
         db1 = conn1.dev1
         collection1 = db1.car_detail
 
